@@ -15,7 +15,7 @@ const textConfig = {
   };
   
   $(document).ready(function () {
-    var audio = new Audio("./sound/sound.mp3");
+    var audio = new Audio("https://jokertn16.github.io/sound/sound.mp3");
       audio.play();
     // process bar
     setTimeout(function () {
