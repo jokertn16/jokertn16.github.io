@@ -17,8 +17,7 @@ const textConfig = {
   
   $(document).ready(function () {
     var audio = new Audio("https://jokertn16.github.io/sound/sound.mp3");
-      audio.muted = false ; 
-      audio.play();
+
     // process bar
     setTimeout(function () {
       firstQuestion();
@@ -34,7 +33,11 @@ const textConfig = {
     $("#no").html(textConfig.text5);
     $("#yes").html(textConfig.text6);
     $("#yes1").html(textConfig.text6);
-  
+    
+    $(document).mousemove(function () {
+      audio.play();
+    });
+
     function firstQuestion() {
       $(".content").hide();
       Swal.fire({
@@ -85,6 +88,7 @@ const textConfig = {
       if (n > 1) moveButton();
       n++;
     });
+
     $("#no").click(() => {
       if (screen.width >= 900) switchButton();
     });
