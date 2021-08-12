@@ -14,6 +14,7 @@ const textConfig = {
     text12: "Okii lunn <3",
   };
   
+  
   $(document).ready(function () {
     var audio = new Audio("https://jokertn16.github.io/sound/sound.mp3");
       audio.muted = false ; 
