@@ -15,6 +15,8 @@ const textConfig = {
   };
   
   $(document).ready(function () {
+    var audio = new Audio("sound/sound.mp3");
+      audio.play();
     // process bar
     setTimeout(function () {
       firstQuestion();
