@@ -10,7 +10,7 @@ const textConfig = {
     text9: "Vì a vui tánh vlllll",
     text10: "Tớ biết mà ^^ Yêu cậu 3000 ",
     text11:
-      "Dịch ni nên nỏ đi chơi đc nhưng zẫn chơi play together đc mờ :)) Nào chơi thì rủ a nhaaa , đừng chơi 1 mình :v ",
+      "Dịch ni nên nỏ đi chơi đc nhưng zẫn chơi play together đc mờ :)) Nào chơi thì rủ a nhaaa , đừng chơi 1 mình :v  . À , cho fb luôn nè :)) ",
     text12: "Okii lunn <3",
   };
   
@@ -122,7 +122,7 @@ const textConfig = {
         html: true,
         width: 900,
         padding: "3em",
-        html: "<input type='text' class='form-control' id='txtReason'  placeholder='Chắc tại tớ đẹp try phớ hôn :)) '>",
+        html: "<input type='text' class='form-control' id='txtReason'  placeholder='Để a đoán nhé :)) , chắc tại a vui tánh phớ hông :)) '>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
                       rgba(0,0,123,0.4)
@@ -146,7 +146,7 @@ const textConfig = {
             text: textConfig.text11,
             confirmButtonColor: "#83d0c9",
             onClose: () => {
-              window.location = "http://fb.com/joker.tn16";
+              window.location = "http://fb.com/thungn16";
             },
           });
         }
