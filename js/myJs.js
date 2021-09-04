@@ -16,7 +16,7 @@ const textConfig = {
   
   
   $(document).ready(function () {
-    var audio = new Audio("https://jokertn16.github.io/sound/sound.mp3");
+    var audio = new Audio("sound/sound.mp3");
 
     // process bar
     setTimeout(function () {
@@ -43,7 +43,7 @@ const textConfig = {
       Swal.fire({
         title: textConfig.text1,
         text: textConfig.text2,
-        imageUrl: "img/cuteCat2.jpg",
+        imageUrl: "img/tiihaa.png",
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
