@@ -29,7 +29,7 @@ const textConfig = {
     }, 600);
   
     $("#text3").html(textConfig.text3);
-    $("#text4").html(textConfig.text4);
+    $("#text4").html(textConfig.text4); 
     $("#no").html(textConfig.text5);
     $("#yes").html(textConfig.text6);
     $("#yes1").html(textConfig.text6);
