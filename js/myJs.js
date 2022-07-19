@@ -45,7 +45,7 @@ $(document).ready(function() {
             imageUrl: "img/hy.jpg",
             imageWidth: 300,
             imageHeight: 300,
-            background: '#fff url("img/iput-bg.jpg")',
+            background: '#fff url("img/bgHy.jpg")',
             imageAlt: "Custom image",
         }).then(function() {
             $(".content").show(200);
@@ -122,7 +122,7 @@ $(document).ready(function() {
             width: 900,
             padding: "3em",
             html: "<input type='text' disabled class='form-control' id='txtReason' placeholder='Bạn nghe một chút tấm lòng của mình nha :> ' >",
-            background: '#fff url("img/iput-bg.jpg")',
+            background: '#fff url("img/bgHy.jpg")',
             backdrop: `
                       rgba(0,0,123,0.4)
                       url("img/vitcon.gif")
@@ -140,7 +140,7 @@ $(document).ready(function() {
                 Swal.fire({
                     width: 900,
                     confirmButtonText: textConfig.text12,
-                    background: '#fff url("img/iput-bg.jpg")',
+                    background: '#fff url("img/bgHy.jpg")',
                     title: textConfig.text10,
                     text: textConfig.text11,
                     confirmButtonColor: "#83d0c9",
