@@ -1,12 +1,12 @@
 const textConfig = {
-    text1: "Chào pạn Mel nhó . Mìn là áter dễ huông đêi!",
-    text2: "Có điều này tui muốn nói với bà, mong bà xem nha !",
-    text3: "Bà sẽ vì sự dễ huông của chủ tịt <br> mà tha lỗi cho tui nha nha <3 <3 ",
+    text1: "Chào pạn Hy nhó . Mìn là Bông dễ huông đêi!",
+    text2: "Có điều này mình muốn nói với bạn, mong bạn Hy xem nha !",
+    text3: "Bạn hãy vì sự dễ huông của chiếc web này <br> mà tha lỗi cho mình nha nha <3 <3 ",
     text4: "",
     text5: "Còn lâu :) ",
     text6: "Nốt lần này thôi đóa",
-    text7: "Ehehe cảm ơn Mel nhìu lắm lắm lun ý :>> ",
-    text8: "Bấm zô đây để nghe chủ tịt Rimuru nói :>",
+    text7: "Ehehe cảm ơn Hy nhìu lắm lắm lun ý :>> ",
+    text8: "Đây nè :>",
     text9: "Vì a vui tánh vlllll",
     text10: "Tha lỗi cho áter nha <3",
     text11: "Tui Rimuru nè, để tui nói Mel nghe, tuổi trẻ nào mà chả có sai lầm, quan trọng là sau sai lầm ta học được gì. Liệu mel có thể tha thứ cho áter được không, nó biết nó sai nên nó cứ trằn trọc day dứt á. Tui nhìn tui còn xót mà :<< . Áter nó cũng biết nhận lỗi rồi và hứa sửa đổi . Nếu bà còn giận thì mắng áter cho đỡ bực, nhưng xong thì hông bực nữa nghe :<. ",
@@ -42,7 +42,7 @@ $(document).ready(function() {
         Swal.fire({
             title: textConfig.text1,
             text: textConfig.text2,
-            imageUrl: "img/avatar.jpg",
+            imageUrl: "img/hy.jpg",
             imageWidth: 300,
             imageHeight: 300,
             background: '#fff url("img/iput-bg.jpg")',
@@ -125,7 +125,7 @@ $(document).ready(function() {
             background: '#fff url("img/iput-bg.jpg")',
             backdrop: `
                       rgba(0,0,123,0.4)
-                      url("img/gifrimuru.gif")
+                      url("img/vitcon.gif")
                       left top
                       no-repeat
                     `,
