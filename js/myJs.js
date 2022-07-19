@@ -8,9 +8,9 @@ const textConfig = {
     text7: "Ehehe cảm ơn Hy nhìu lắm lắm lun ý :>> ",
     text8: "Đây nè :>",
     text9: "Vì a vui tánh vlllll",
-    text10: "Tha lỗi cho áter nha <3",
-    text11: "Tui Rimuru nè, để tui nói Mel nghe, tuổi trẻ nào mà chả có sai lầm, quan trọng là sau sai lầm ta học được gì. Liệu mel có thể tha thứ cho áter được không, nó biết nó sai nên nó cứ trằn trọc day dứt á. Tui nhìn tui còn xót mà :<< . Áter nó cũng biết nhận lỗi rồi và hứa sửa đổi . Nếu bà còn giận thì mắng áter cho đỡ bực, nhưng xong thì hông bực nữa nghe :<. ",
-    text12: "Bấm zô đêi để đi mắng áter !!",
+    text10: "Tha lỗi cho Bông nha <3",
+    text11: " Để mà lói về vấn đề thơ thủng, tại sao lúc nào cũng phải theo vần, tại sao chúng ta lại làm việc một cách máy móc như vậy, chúng ta phải tiến bộ lên chứ đúng ko, nên là cho mình chin nhỗi nhó.",
+    text12: "Bấm zô đêi để đi mắng Bông !!",
 };
 
 
@@ -121,7 +121,7 @@ $(document).ready(function() {
             html: true,
             width: 900,
             padding: "3em",
-            html: "<input type='text' disabled class='form-control' id='txtReason' placeholder='Bà nghe một chút tâm sự của chủ tịt nha <3 ' >",
+            html: "<input type='text' disabled class='form-control' id='txtReason' placeholder='Bạn nghe một chút tấm lòng của mình nha :> ' >",
             background: '#fff url("img/iput-bg.jpg")',
             backdrop: `
                       rgba(0,0,123,0.4)
